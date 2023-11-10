@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+table {
+	width: 100%;
+	border-collapse: collapse; /* Remove default cell spacing */
+}
+
+    th, td {
+	    padding: 10px; /* Set cellpadding */
+	    text-align: center; /* Set text alignment */
+    }
+
+    th {
+	    background-color: #3498db; /* Set header background color */
+	    color: #fff; /* Set header text color */
+    }
+
+    tbody tr:nth-child(even) {
+	    background-color: #f2f2f2; /* Set even row background color */
+    }
+
+    tfoot {
+	    background-color: #2ecc71; /* Set footer background color */
+	    color: #fff; /* Set footer text color */
+    }
+		</style>
+		<title>Styled Table</title>
+	</head>
+	<body>
+
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Month</th>
+					<th>Product A</th>
+					<th>Product B</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>January</td>
+					<td>100</td>
+					<td>150</td>
+				</tr>
+				<tr>
+					<td>February</td>
+					<td>120</td>
+					<td>130</td>
+				</tr>
+				<tr>
+					<td>March</td>
+					<td>90</td>
+					<td>180</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Total</td>
+					<td>310</td>
+					<td>460</td>
+				</tr>
+			</tfoot>
+		</table>
+
+	</body>
+</html>
